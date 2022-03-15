@@ -14,7 +14,7 @@ app.secret_key = 'your secret key'
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'your password'
-app.config['MYSQL_DB'] = 'geeklogin'
+app.config['MYSQL_DB'] = 'login'
 
 mysql = MySQL(app)
 
